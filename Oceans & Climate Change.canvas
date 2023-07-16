@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"type":"link","url":"https://climate.mit.edu/posts/study-oceans-color-changing-consequence-climate-change","id":"0744e4b9ef346b39","x":-360,"y":-380,"width":400,"height":400,"color":"6"},
+		{"type":"file","file":"eco/Ocean color and it's relation to climate change.md","id":"4cbe9787d2655c94","x":80,"y":-380,"width":400,"height":400},
+		{"type":"link","url":"https://en.wikipedia.org/wiki/Ocean_color","id":"c319920989fb07f7","x":660,"y":-420,"width":420,"height":570},
+		{"type":"link","url":"https://web.archive.org/web/20200710143919/https://www.bbc.com/earth/story/201505226-is-the-sea-really-blue","id":"29b01802a469b59a","x":1280,"y":-335,"width":400,"height":400},
+		{"type":"link","url":"https://www.google.com/search?client=firefox-b-d&q=wavelengths+between+around+380-700+nanometres","id":"4cba8bda81a21352","x":1860,"y":-320,"width":400,"height":400},
+		{"type":"link","url":"https://global.canon/en/technology/s_labo/light/001/01.html","id":"4a042fa965a9b0c4","x":1280,"y":150,"width":400,"height":400},
+		{"type":"text","text":"Both the sky and water having a blue hue relate to each other. Blue light waves scatter more hence having a higer frequncy","id":"bf90c98ae198910d","x":1735,"y":220,"width":325,"height":220},
+		{"type":"link","url":"http://manoa.hawaii.edu/exploringourfluidearth/physical/ocean-depths/light-ocean","id":"9ead07415ff2dc40","x":2360,"y":80,"width":400,"height":400},
+		{"type":"link","url":"https://oceanexplorer.noaa.gov/edu/materials/light-and-color-fact-sheet.pdf","id":"44595c2a4df4e0ef","x":1800,"y":550,"width":400,"height":380}
+	],
+	"edges":[
+		{"id":"230f68cb077496fb","fromNode":"0744e4b9ef346b39","fromSide":"bottom","toNode":"c319920989fb07f7","toSide":"bottom"},
+		{"id":"cabb63ecb606e083","fromNode":"4cbe9787d2655c94","fromSide":"right","toNode":"c319920989fb07f7","toSide":"left"},
+		{"id":"a5995ba917e2f950","fromNode":"c319920989fb07f7","fromSide":"right","toNode":"29b01802a469b59a","toSide":"left"},
+		{"id":"e52465b586b8a924","fromNode":"29b01802a469b59a","fromSide":"right","toNode":"4cba8bda81a21352","toSide":"left"},
+		{"id":"4e00b3db1ef9ee1c","fromNode":"c319920989fb07f7","fromSide":"bottom","toNode":"4a042fa965a9b0c4","toSide":"left"},
+		{"id":"eeca3105e10e5937","fromNode":"4a042fa965a9b0c4","fromSide":"right","toNode":"bf90c98ae198910d","toSide":"left"},
+		{"id":"a6d6d8baa27d10f9","fromNode":"bf90c98ae198910d","fromSide":"right","toNode":"9ead07415ff2dc40","toSide":"left"},
+		{"id":"2c2c396ee6e7fef9","fromNode":"4a042fa965a9b0c4","fromSide":"right","toNode":"44595c2a4df4e0ef","toSide":"left"},
+		{"id":"3ddff3d834814867","fromNode":"9ead07415ff2dc40","fromSide":"left","toNode":"44595c2a4df4e0ef","toSide":"right"}
+	]
+}
